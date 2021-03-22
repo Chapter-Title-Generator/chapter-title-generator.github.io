@@ -6,7 +6,7 @@ function newQuote() {
 
 	//document.getElementById('img').innerHTML = `<img src='${titles[index].filename}' alt='${titles[index].source}'/>`
 	
-	document.getElementById('sourceImage').src = 'https://github.com/Chapter-Title-Generator/chapter-title-generator.github.io/blob/0dae82c933b46f99434d7c669208cfc16b982193/logos/' + titles[index].filename;
+	document.getElementById('sourceImage').src = 'logos/' + titles[index].filename;
 
 	document.getElementById('sourceImage').alt = titles[index].source;
 
