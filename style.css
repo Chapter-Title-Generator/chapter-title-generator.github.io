@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'FEH';
-   src: url(https://github.com/Chapter-Title-Generator/chapter-title-generator.github.io/blob/edb7710df85387984a538f1bc8344090f2c19010/feh.ttf) format("truetype");
+   src: url(feh.ttf) format("truetype");
    
 }
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 #newButton{
-	background: url(https://github.com/Chapter-Title-Generator/chapter-title-generator.github.io/blob/edb7710df85387984a538f1bc8344090f2c19010/button2.png);
+	background: url(button2.png);
 	width: 167px;
 	height: 80px;
 	border: none;
