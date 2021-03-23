@@ -32,3 +32,8 @@ h1 {
 	display: block;
     margin: 0 auto;
 }
+
+body {
+background-image: url("background.png");
+background-repeat: repeat-y;
+}
