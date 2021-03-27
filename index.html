@@ -3,7 +3,7 @@
 <head>
 	<title>Title Generator</title>
 </head>
-<body onload="newQuote()">
+<body onload="newQuote();">
 	
 
 
@@ -16,16 +16,36 @@
 
 	<div> <img id ="sourceImage" src="logos/blank.png" alt="Placeholder"> </div>
 
-	<!--< <td id = "img"></td>-->
-	<script src="javascript.js"></script>
 	<script src="data.js"></script>
 
 	<div   style="text-align:center;">
 		<button id= 'newButton' onclick= "newQuote(); buttonSound();">New Title</button>
-		<audio id="click" src ="audio1.mp3"</audio>
+		<audio id="click" src ="audio1.mp3">
 	</div>
-	
+	<br>
+	<div class="audio_controls">
+		
+			<div class="marquee">
+			<p id="song_title">Reminiscences</p>
+			</div>
 
+		<button id="Back">
+			<img src="buttons/back.png">
+		</button>
+		<button onclick= "toggle()" id="Toggle">
+			<img id="toggle" src="buttons/play.png">
+		</button>
+		<button id="Next">
+			<img src="buttons/next.png">
+		</button>
+		
+	</div>
+
+	<audio id="bg_music" src="Reminiscences.mp3">
+	<p>If you are reading this, it is because your browser does not support the audio element.</p>
+	</audio>
+	
+	<script src="javascript.js"></script>
 	
 </body>
 </html>
