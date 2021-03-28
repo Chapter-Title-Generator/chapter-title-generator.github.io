@@ -80,6 +80,7 @@ h1 {
     text-align: center;
     top: 30%;
     right: 27%;
+    white-space: nowrap;
 }
         
 .marquee p {

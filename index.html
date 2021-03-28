@@ -3,7 +3,7 @@
 <head>
 	<title>Title Generator</title>
 </head>
-<body onload="newQuote();">
+<body onload="newQuote(); setMusic();">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
@@ -15,6 +15,7 @@
 	<div> <img id ="sourceImage" src="logos/blank.png" alt="Placeholder"> </div>
 	<script src="javascript.js"></script>
 	<script src="data.js"></script>
+	<script src="music.js"></script>
 
 	<div   style="text-align:center;">
 		<button id= 'newButton' onclick= "newQuote(); buttonSound();">New Title</button>
@@ -24,10 +25,10 @@
 	<div id="audio_box" class="container"> 
 		<img src="music_bg.png">
 		<div id="marquee" class="marquee">
-			<p id="song_title">Reminiscenes</p>
+			<p id="song_title"></p>
 		</div>
 		<div id="song_cover">
-			<img src="covers/sov.jpg">
+			<img id="cover" src="covers/blank.png">
 		</div>
 
 		<div class="audio_controls">

@@ -1,4 +1,5 @@
 alert (titles.back);
+alert (music.back);
 
 function newQuote() {
 	let index = Math.floor(Math.random() * 245)+1;
@@ -24,6 +25,14 @@ function toggle(){
 		document.getElementById("toggle").src = "buttons/pause.png";
 	}
 	
+}
+
+function setMusic(){
+	let index = Math.floor(Math.random()*2)+1;
+	let track = music[index];
+	document.getElementById("cover").src = "covers/" + track.cover;
+	document.getElementById("bg_music").src = "music/" + track.filepath;
+	document.getElementById("song_title").innerHTML = track.title;
 }
 
 
