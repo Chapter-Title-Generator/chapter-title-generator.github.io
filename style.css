@@ -4,6 +4,20 @@
    
 }
 
+@keyframes scroll-left {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+body {
+	background-image: url("background.png");
+	background-size: auto;
+}
+
 h1 {
 	text-align: center;
 	font-family: FEH;
@@ -100,23 +114,6 @@ h1 {
 	position: absolute;
 	top: 14%;
 	left: 28.5%;
-	border: 1px solid #ddd;
+	border: 1px solid #000;
 
-}
-
-
-@keyframes scroll-left {
-	0% {
-		transform: translateX(100%);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
-}
-
-
-
-body {
-background-image: url("background.png");
-	background-size: auto;
 }

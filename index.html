@@ -3,20 +3,17 @@
 <head>
 	<title>Title Generator</title>
 </head>
-<body onload="newQuote(); setMusic();">
+<body onload="newQuote(); setMusic(true);">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<h1>Title Generator</h1>
-	<div id="quoteDisplay">
-	</div>
+	<div id="quoteDisplay"></div>
 	<br>
-
 	<div> <img id ="sourceImage" src="logos/blank.png" alt="Placeholder"> </div>
 	<script src="javascript.js"></script>
 	<script src="data.js"></script>
 	<script src="music.js"></script>
-
 	<div   style="text-align:center;">
 		<button id= 'newButton' onclick= "newQuote(); buttonSound();">New Title</button>
 		<audio id="click" src ="audio1.mp3">
@@ -30,30 +27,20 @@
 		<div id="song_cover">
 			<img id="cover" src="covers/blank.png">
 		</div>
-
 		<div class="audio_controls">
-
-			<button id="Back">
+			<button onclick="changeSong(false)"id="Back">
 				<img src="buttons/back.png">
 			</button>
 			<button onclick= "toggle()" id="Toggle">
 				<img id="toggle" src="buttons/play.png">
 			</button>
-			<button id="Next">
+			<button onclick="changeSong(true)"id="Next">
 				<img src="buttons/next.png">
 			</button>
-			
 		</div>
 	</div>
-
-
-
-
 	<audio id="bg_music" src="music/Reminiscences.mp3">
-	<p>If you are reading this, it is because your browser does not support the audio element.</p>
+	<p>If you are reading this, it is because your browser does not support the audio element</p>
 	</audio>
-	
-	
-	
 </body>
 </html>

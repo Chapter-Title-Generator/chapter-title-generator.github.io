@@ -10,6 +10,12 @@ let music = {
 		title: "Dwellings of the Ancient Gods",
 		cover: "3h.png",
 		filepath: "dwellings.mp3"
+	},
+
+	3: {
+		title: "The Water Maiden",
+		cover: "fates.png",
+		filepath: "water.mp3"
 	}
 }
 

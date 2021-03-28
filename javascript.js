@@ -1,6 +1,8 @@
 alert (titles.back);
 alert (music.back);
 
+var music_index;
+
 function newQuote() {
 	let index = Math.floor(Math.random() * 245)+1;
 	document.getElementById('quoteDisplay').innerHTML = titles[index].body + '<br>';
@@ -14,25 +16,37 @@ function buttonSound() {
 }
 
 function toggle(){
-	music = document.getElementById("bg_music")
-	if (!music.paused){
-		music.pause();
+	bg_audio = document.getElementById("bg_music")
+	if (!bg_audio.paused){
+		bg_audio.pause();
 		document.getElementById("toggle").src = "buttons/play.png";
-
 	}
 	else {
-		music.play();
+		bg_audio.play();
 		document.getElementById("toggle").src = "buttons/pause.png";
 	}
-	
 }
 
-function setMusic(){
-	let index = Math.floor(Math.random()*2)+1;
-	let track = music[index];
+function setMusic(load){
+	if(load){
+		music_index = Math.floor(Math.random()*3)+1;
+	} 
+	let track = music[music_index];
 	document.getElementById("cover").src = "covers/" + track.cover;
 	document.getElementById("bg_music").src = "music/" + track.filepath;
 	document.getElementById("song_title").innerHTML = track.title;
+}
+
+function changeSong(next) {
+	if(next){
+		music_index == 3 ? music_index = 1 : music_index++;
+	}
+	else {
+		music_index == 1 ? music_index = 3 : music_index--;
+	}
+	document.getElementById("bg_music").pause()
+	document.getElementById("toggle").src = "buttons/play.png";
+	setMusic(false);
 }
 
 
