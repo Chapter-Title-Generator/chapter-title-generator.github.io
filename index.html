@@ -21,25 +21,34 @@
 		<audio id="click" src ="audio1.mp3">
 	</div>
 	<br>
-	<div class="audio_controls">
-		
-			<div class="marquee">
-			<p id="song_title">Reminiscences</p>
-			</div>
+	<div id="audio_box" class="container"> 
+		<img src="music_bg.png">
+		<div id="marquee" class="marquee">
+			<p id="song_title">Reminiscenes</p>
+		</div>
+		<div id="song_cover">
+			<img src="covers/sov.jpg">
+		</div>
 
-		<button id="Back">
-			<img src="buttons/back.png">
-		</button>
-		<button onclick= "toggle()" id="Toggle">
-			<img id="toggle" src="buttons/play.png">
-		</button>
-		<button id="Next">
-			<img src="buttons/next.png">
-		</button>
-		
+		<div class="audio_controls">
+
+			<button id="Back">
+				<img src="buttons/back.png">
+			</button>
+			<button onclick= "toggle()" id="Toggle">
+				<img id="toggle" src="buttons/play.png">
+			</button>
+			<button id="Next">
+				<img src="buttons/next.png">
+			</button>
+			
+		</div>
 	</div>
 
-	<audio id="bg_music" src="Reminiscences.mp3">
+
+
+
+	<audio id="bg_music" src="music/Reminiscences.mp3">
 	<p>If you are reading this, it is because your browser does not support the audio element.</p>
 	</audio>
 	
