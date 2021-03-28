@@ -93,8 +93,8 @@ h1 {
 }
 
 #song_cover img {
-	width: 200px;
-	height: 200px;
+	height: 70%;
+	width: auto;
 	position: absolute;
 	top: 14%;
 	left: 28.5%;
