@@ -5,7 +5,7 @@
 </head>
 <body onload="newQuote(); setMusic(true);">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	
 	<h1>Title Generator</h1>
 	<div id="quoteDisplay"></div>
@@ -14,11 +14,12 @@
 	<script src="javascript.js"></script>
 	<script src="data.js"></script>
 	<script src="music.js"></script>
-	<div   style="text-align:center;">
-		<button id= 'newButton' onclick= "newQuote(); buttonSound();">New Title</button>
+	<div  class= 'buttons' style="text-align:center;">
+
+		<button onclick= "newQuote(); buttonSound();">New Title</button>
+		<button onclick="location.href='all.html'" type="button">See All</button>
 		<audio id="click" src ="audio1.mp3">
 	</div>
-	<br>
 	<div id="audio_box" class="container"> 
 		<img src="music_bg.png">
 		<div id="marquee" class="marquee">

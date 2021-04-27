@@ -1,0 +1,70 @@
+@font-face {
+   font-family: 'FEH';
+   src: url(feh.ttf) format("truetype");
+   
+}
+
+@keyframes scroll-left {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+body {
+	background-image: url("background.png");
+	background-size: auto;
+	font-family: FEH;
+	color: white;
+	line-height: 1.5;
+	margin-top: 80px
+}
+
+.header {
+	text-decoration: underline;
+}
+
+.list {
+	font-size: .75;
+	margin-left: 2%;
+}
+
+#title {
+	text-align: center;
+	font-size: 1.5;
+	height: 80px;
+	width: 100%;
+	display: block;
+	position: fixed;
+	background-image: url("background.png");
+	box-shadow: 0 0 1px 1px #101415;
+	top:0;
+	left:0;
+}
+
+#columns {
+	column-count: 4;
+	column-width: 300px
+}
+
+#back {
+	display: inline;
+	padding: 0; 
+	border: 0;
+	background: transparent;
+	position: absolute;
+	top: 2.5px;
+	left:2.5px;
+}
+#buttonIMG {
+	width: 75px;
+	height: 75px;
+}
+
+#pageTitle {
+	margin: auto;
+	vertical-align: center;
+	margin-top: 10px;
+}

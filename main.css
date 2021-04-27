@@ -25,6 +25,13 @@ h1 {
 	
 }
 
+.buttons{
+	width: 50%;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
 #quoteDisplay {
 	text-align: center;
 	font-family: FEH;
@@ -34,14 +41,25 @@ h1 {
 
 }
 
-#newButton{
-	background: url(buttons/new.png);
-	width: 167px;
-	height: 80px;
+.buttons button{
+	background-image: url("buttons/new.png");
+	background-position: center;
+	background-repeat: no-repeat;
 	border: none;
 	font-family: FEH;
-	font-size: 1.25rem;
+	font-size: 1.25em;
+	padding: 0; 
+	border: 0; 
+	background-color: transparent;
+	display:inline-block;
+	width: 160px;
+	height: 80px;
 }
+.buttons img{
+	border: none;
+	background-color: none;
+}
+
 
 #sourceImage {
 	width: 90%;
