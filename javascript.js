@@ -17,11 +17,14 @@ function buttonSound() {
 
 function toggle(){
 	bg_audio = document.getElementById("bg_music")
+	//bg_music.volume = 0.2;
 	if (!bg_audio.paused){
 		bg_audio.pause();
 		document.getElementById("toggle").src = "buttons/play.png";
 	}
 	else {
+		bg_audio.volume = .2;
+		bg_audio.loop = true;
 		bg_audio.play();
 		document.getElementById("toggle").src = "buttons/pause.png";
 	}
@@ -29,7 +32,7 @@ function toggle(){
 
 function setMusic(load){
 	if(load){
-		music_index = Math.floor(Math.random()*3)+1;
+		music_index = Math.floor(Math.random()*4)+1;
 	} 
 	let track = music[music_index];
 	document.getElementById("cover").src = "covers/" + track.cover;
@@ -39,10 +42,10 @@ function setMusic(load){
 
 function changeSong(next) {
 	if(next){
-		music_index == 3 ? music_index = 1 : music_index++;
+		music_index == 4 ? music_index = 1 : music_index++;
 	}
 	else {
-		music_index == 1 ? music_index = 3 : music_index--;
+		music_index == 1 ? music_index = 4 : music_index--;
 	}
 	document.getElementById("bg_music").pause()
 	document.getElementById("toggle").src = "buttons/play.png";

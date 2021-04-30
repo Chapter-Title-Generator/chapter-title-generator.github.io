@@ -16,6 +16,12 @@ let music = {
 		title: "The Water Maiden",
 		cover: "fates.png",
 		filepath: "water.mp3"
+	},
+
+	4: {
+		title: "Desiderium",
+		cover: "magireco.jpg",
+		filepath: "desiderium.mp3"
 	}
 }
 

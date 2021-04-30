@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body onload="setMusic(true);">
 	<link rel="stylesheet" type="text/css" href="all.css">
+	<script src="javascript.js"></script>
+	<script src="music.js"></script>
 	<div id='title'>
-
+		<audio id="bg_music" src="music/Reminiscences.mp3" loop="true";>
+			<p>If you are reading this, it is because your browser does not support the audio element</p>
+		</audio>
 		<button id='back' onclick="location.href='index.html'" type="button">
 			<img id="buttonIMG" src="buttons/prev.png">
 		</button>
 		<h1 id='pageTitle'>All Titles</h1>
+
+		<div class="audio_controls">
+			<button onclick="changeSong(false)"id="Back">
+				<img src="buttons/back.png">
+			</button>
+			<button onclick= "toggle()" id="Toggle">
+				<img id="toggle" src="buttons/play.png">
+			</button>
+			<button onclick="changeSong(true)"id="Next">
+				<img src="buttons/next.png">
+			</button>
+			<div id="song_cover">
+				<img id="cover" src="covers/blank.png">
+			</div>
+		</div>
 		
 	</div>
 	<br>
