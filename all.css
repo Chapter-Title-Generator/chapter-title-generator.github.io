@@ -13,6 +13,17 @@
 	}
 }
 
+/* for all devices (until the @media block) */
+
+@media only screen and (min-width: 630px) {
+  /* only for screens wider or equal to 630 pixels */
+  /* code from https://www.thesitewizard.com/css/design-2-column-layout.shtml */
+	#columns {
+		column-count: 4;
+		column-width: 300px
+	}
+}
+
 body {
 	background-image: url("background.png");
 	background-size: auto;
@@ -44,10 +55,7 @@ body {
 	left:0;
 }
 
-#columns {
-	column-count: 4;
-	column-width: 300px
-}
+
 
 #back {
 	display: inline;
