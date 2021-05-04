@@ -24,10 +24,11 @@ body {
 
 .header {
 	text-decoration: underline;
+	font-size: 1.2vw;
 }
 
 .list {
-	font-size: .85rem;
+	font-size: 1vw;
 	margin-left: 2%;
 }
 
@@ -108,7 +109,7 @@ body {
 		column-width: 300px
 	}
 	.list {
-	font-size: .85rem;
+	font-size: 1vw;
 	margin-left: 2%;
 }
 	
