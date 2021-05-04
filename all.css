@@ -27,13 +27,13 @@ body {
 }
 
 .list {
-	font-size: .75;
+	font-size: .85em;
 	margin-left: 2%;
 }
 
 #title {
 	text-align: center;
-	font-size: 1.5;
+	font-size: 1.25em;
 	height: 80px;
 	width: 100%;
 	display: block;
