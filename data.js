@@ -1328,5 +1328,85 @@ let titles = {
     "body": "As Many Times as it Takes",
     "source": "Magia Record",
     "filename": "magireco.png"
+  },
+  "267": {
+    "body": "Revisiting the Past",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "268": {
+    "body": "Strength of Heart",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "269": {
+    "body": "Recovery and Reflection",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "270": {
+    "body": "A Wistful Glow",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "270": {
+    "body": "A Mysterious Sanctuary",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "271": {
+    "body": "A Day Like Any Other",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "272": {
+    "body": "Reawakened Memories",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "273": {
+    "body": "Ancient Astrology",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "274": {
+    "body": "Echoes of Ancient Times",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "275": {
+    "body": "The Land in the Sky",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "276": {
+    "body": "A Love for Flowers",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "277": {
+    "body": "Strength in Unity",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "278": {
+    "body": "A Life Without Visions",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "279": {
+    "body": "Those Waiting for You",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "280": {
+    "body": "Eternal Scars",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
+  },
+  "281": {
+    "body": "The Shimmering Marsh",
+    "source": "Xenoblade Chronicles",
+    "filename": "xcde.png"
   }
 }

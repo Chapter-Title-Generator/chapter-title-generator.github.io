@@ -4,7 +4,7 @@ alert (music.back);
 var music_index;
 
 function newQuote() {
-	let index = Math.floor(Math.random() * 266)+1;
+	let index = Math.floor(Math.random() * 281)+1;
 	document.getElementById('quoteDisplay').innerHTML = titles[index].body + '<br>';
 	document.getElementById('sourceImage').src = 'logos/' + titles[index].filename;
 	document.getElementById('sourceImage').alt = titles[index].source;
@@ -32,7 +32,7 @@ function toggle(){
 
 function setMusic(load){
 	if(load){
-		music_index = Math.floor(Math.random()*4)+1;
+		music_index = Math.floor(Math.random()*5)+1;
 	} 
 	let track = music[music_index];
 	document.getElementById("cover").src = "covers/" + track.cover;
@@ -42,10 +42,10 @@ function setMusic(load){
 
 function changeSong(next) {
 	if(next){
-		music_index == 4 ? music_index = 1 : music_index++;
+		music_index == 5 ? music_index = 1 : music_index++;
 	}
 	else {
-		music_index == 1 ? music_index = 4 : music_index--;
+		music_index == 1 ? music_index = 5 : music_index--;
 	}
 	document.getElementById("bg_music").pause()
 	document.getElementById("toggle").src = "buttons/play.png";

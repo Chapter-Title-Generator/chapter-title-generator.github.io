@@ -22,6 +22,12 @@ let music = {
 		title: "Desiderium",
 		cover: "magireco.jpg",
 		filepath: "desiderium.mp3"
+	},
+
+	5: {
+		title: "Id ~ Serenity",
+		cover: "awakening.png",
+		filepath: "serenity.mp3"
 	}
 }
 
