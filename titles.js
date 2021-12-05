@@ -1,4 +1,4 @@
-{
+let title = {
   "Fire Emblem: Genealogy of the Holy War": [
     "Doors of Destiny",
     "For Whose Sake"
@@ -45,7 +45,10 @@
     "The Atonement",
     "Moment of Fate",
     "A Strange Land",
-    "Shades of Evil"
+    "Shades of Evil",
+    "A Battle and a Beginning",
+    "Bittersweet Victory",
+    "Requiem for the Fallen"
   ],
   "Fire Emblem: Radiant Dawn": [
     "Under Gray Skies",
@@ -56,7 +59,10 @@
     "Tides of Intrigue",
     "On Drifting Clouds",
     "Chaos Named",
-    "Silent World"
+    "Silent World",
+    "Bearer of Hope",
+    "On Glory's Wings",
+    "Divine Tranquility"
   ],
   "Fire Emblem: Shadow Dragon": [
     "In War's Grip",
@@ -64,9 +70,22 @@
     "A Traitor's Worth",
     "An Oasis of Magic",
     "Star and Savior",
-    "Chosen by Fate"
+    "Chosen by Fate",
+    "Footsteps of Fate",
+    "Where Stories Begin",
+    "A Hero's Destiny",
+    "Blade of Treachery",
+    "Requiem for the Brave",
+    "Pieces of Hope",
+    "A Painful Farewell"
   ],
   "Fire Emblem: New Mystery of the Emblem": [
+    "Sanctuary of Sorcery",
+    "Depths of the Abyss",
+    "Light and Shadow",
+    "Beyond the Silence"
+  ],
+  "Fire Emblem: Awakening": [
     "Invisible Ties",
     "The Verge of History",
     "Unwelcome Change",
@@ -83,15 +102,23 @@
     "Daughter to Dragons",
     "The Threat of Silence",
     "Irreconcilable Paths",
-    "The Wellspring of Truth"
+    "The Wellspring of Truth",
+    "Prescience",
+    "Anathema"
   ],
-  "Fire Emblem: Awakening": [
+  "Fire Emblem: Fates": [
     "Ties That Bind",
     "Lost in the Waves",
     "The Changing Tide",
-    "Endless Dawn"
+    "Endless Dawn",
+    "Petals in the Wind",
+    "Ember of Hope",
+    "Left to Heaven",
+    "Endless Nightmare",
+    "Rend Heaven",
+    "Inevitable End"
   ],
-  "Fire Emblem Fates": [
+  "Fire Emblem: Fates (Revelation)": [
     "Unspeakable World",
     "Voice of a God",
     "A Lost Peace",
@@ -100,24 +127,32 @@
     "Seeds of Doubt",
     "Days Lost"
   ],
-  "Fire Emblem Fates: Revelation": [
+  "Fire Emblem: Fates (Birthright)": [
     "A Vow Upheld",
     "Fierce Winds",
     "Land of Gods",
     "Lost in the Ice",
     "Dawn Breaks"
   ],
-  "Fire Emblem Fates: Birthright": [
+  "Fire Emblem: Fates (Conquest)": [
     "Bitter Intrigue",
     "Voice of Paradise",
     "Winds of Change",
-    "Eternal Stairway"
-  ],
-  "Fire Emblem Fates: Conquest": [
-    "Land of Sorrow",
-    "Together to the End"
+    "Eternal Stairway",
+    "Rose's Thorns"
   ],
   "Fire Emblem Echoes: Shadows of Valentia": [
+    "Land of Sorrow",
+    "Together to the End",
+    "Undiscovered Horizons",
+    "A Song for Bygone Days",
+    "What Lies at the End",
+    "One Star by the Next",
+    "A Distant Promise",
+    "In a Silver Garden with You",
+    "The Slumbering Labyrinth"
+  ],
+  "Fire Emblem: Three Houses": [
     "An Inevitable Encounter",
     "Tower of Black Winds",
     "The Cause of Sorrow",
@@ -133,9 +168,24 @@
     "What Lies Beneath",
     "Falling Short of Heaven",
     "Dividing the World",
-    "Beneath The Earth"
+    "Beneath The Earth",
+    "Roar of Dominion",
+    "Chasing Daybreak",
+    "Between Heaven and Earth",
+    "The Long Road",
+    "Dwellings of the Ancient Gods",
+    "Paths That Will Never Cross",
+    "Indomitable Will ",
+    "Guardian of Starlight",
+    "Recollection and Regret",
+    "Somewhere to Belong",
+    "Words to Believe In",
+    "The Land Beloved by the Goddess",
+    "A Star in the Morning Sky",
+    "The Color of Sunrise",
+    "Scales of the Goddess"
   ],
-  "Fire Emblem: Three Houses": [
+  "Fire Emblem Heroes": [
     "The Blood of Dragons",
     "Enduring Love",
     "Shadow in the Mirror",
@@ -272,5 +322,50 @@
     "Conflicting Feelings",
     "Useless Gestures",
     "Overcoming Differences"
+  ],
+  "Xenoblade Chronicles": [
+    "Revisiting the Past",
+    "Strength of Heart",
+    "Recovery and Reflection",
+    "A Wistful Glow",
+    "Eternal Scars",
+    "A Mysterious Sanctuary",
+    "The Shimmering Marsh",
+    "A Day Like Any Other",
+    "Reawakened Memories",
+    "Ancient Astrology",
+    "Echoes of Ancient Times",
+    "The Land in the Sky",
+    "A Love for Flowers",
+    "Strength in Unity",
+    "A Life Without Visions"
+  ],
+  "Magia Record": [
+    "Cloaked in Guilt",
+    "A Once Empty World",
+    "The Warmth of Your Hand",
+    "The Struggle Against Fate",
+    "Exchange of Final Wishes",
+    "Bearer of the Family Name",
+    "That Which Divides",
+    "Protective Hearts",
+    "Seeking a Thread of Hope",
+    "The Price of a Wish",
+    "Determined to Believe",
+    "Connected Hearts",
+    "Towards Hope",
+    "Our Own Sea and Sky",
+    "A Shower of Light",
+    "In a Broken World",
+    "Encounter with a Hero",
+    "Hopes Combined",
+    "World Full of Wishes",
+    "Admiring the Beyond",
+    "As Many Times as it Takes"
+  ],
+  "Misc.": [
+    "Each Person's Enemy",
+    "Call of Eternity",
+    "Memories of Better Days"
   ]
 }

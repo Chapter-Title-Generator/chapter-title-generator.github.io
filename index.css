@@ -1,6 +1,6 @@
 @font-face {
    font-family: 'FEH';
-   src: url(feh.ttf) format("truetype");
+   src: url(./source/feh.ttf) format("truetype");
    
 }
 
@@ -62,7 +62,7 @@ h1 {
 
 
 #sourceImage {
-	width: 90%;
+	width: 55%;
 	display: block;
     margin: 0 auto;
 }

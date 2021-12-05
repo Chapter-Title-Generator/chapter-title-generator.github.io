@@ -4,7 +4,7 @@ alert (music.back);
 var music_index;
 
 function newQuote() {
-	let index = Math.floor(Math.random() * 281)+1;
+	let index = Math.floor(Math.random() * 329)+1;
 	document.getElementById('quoteDisplay').innerHTML = titles[index].body + '<br>';
 	document.getElementById('sourceImage').src = 'logos/' + titles[index].filename;
 	document.getElementById('sourceImage').alt = titles[index].source;

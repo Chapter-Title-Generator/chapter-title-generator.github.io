@@ -17,8 +17,11 @@ let fe_cq = fs.readFileSync('conquest.txt').toString().split("\n");
 let fe15 = fs.readFileSync('sov.txt').toString().split("\n");
 let fe16 = fs.readFileSync('3h.txt').toString().split("\n");
 let feh = fs.readFileSync('feh.txt').toString().split("\n");
+let xc = fs.readFileSync('xc.txt').toString().split("\n");
+let magireco = fs.readFileSync('magireco.txt').toString().split("\n");
+let misc = fs.readFileSync('misc.txt').toString().split("\n");
 
-let game_array = [fe4, fe5, fe6, fe7, fe8, fe9, fe10, fe11, fe12, fe13, fe14, fe_rev, fe_br, fe_cq, fe15, fe16, feh]
+let game_array = [fe4, fe5, fe6, fe7, fe8, fe9, fe10, fe11, fe12, fe13, fe14, fe_rev, fe_br, fe_cq, fe15, fe16, feh, xc, magireco, misc]
 let source_array = ["Fire Emblem: Genealogy of the Holy War", 
 					"Fire Emblem: Thracia 776",
 					"Fire Emblem: The Binding Blade",
@@ -35,7 +38,10 @@ let source_array = ["Fire Emblem: Genealogy of the Holy War",
 					"Fire Emblem Fates: Conquest",
 					"Fire Emblem Echoes: Shadows of Valentia",
 					"Fire Emblem: Three Houses",
-					"Fire Emblem Heroes"
+					"Fire Emblem Heroes",
+					"Xenoblade Chronicles",
+					"Magia Record",
+					"Misc."
 					]
 
 let files_array = ["genealogy.png", 
@@ -54,33 +60,42 @@ let files_array = ["genealogy.png",
 					"conquest.png",
 					"sov.png",
 					"3h.png",
-					"heroes.png"
+					"heroes.png",
+					"xcde.png",
+					"magireco.png",
+					"blank.png"
 					]
 
 
-let object = {
-	[source_array[0]] : fe4,
-	[source_array[1]] : fe5,
-	[source_array[2]] : fe6,
-	[source_array[3]] : fe7,
-	[source_array[4]] : fe8,
-	[source_array[5]] : fe9,
-	[source_array[6]] : fe10,
-	[source_array[7]] : fe11,
-	[source_array[8]] : fe13,
-	[source_array[9]] : fe14,
-	[source_array[10]] : fe_rev,
-	[source_array[11]] : fe_br,
-	[source_array[12]] : fe_cq,
-	[source_array[13]] : fe15,
-	[source_array[14]] : fe16,
-	[source_array[15]] : feh,
 
-}
+let object = {
+	[source_array[0]] : game_array[0],
+	[source_array[1]] : game_array[1],
+	[source_array[2]] : game_array[2],
+	[source_array[3]] : game_array[3],
+	[source_array[4]] : game_array[4],
+	[source_array[5]] : game_array[5],
+	[source_array[6]] : game_array[6],
+	[source_array[7]] : game_array[7],
+	[source_array[8]] : game_array[8],
+	[source_array[9]] : game_array[9],
+	[source_array[10]] : game_array[10],
+	[source_array[11]] : game_array[11],
+	[source_array[12]] : game_array[12],
+	[source_array[13]] : game_array[13],
+	[source_array[14]] : game_array[14],
+	[source_array[15]] : game_array[15],
+	[source_array[16]] : game_array[16],
+	[source_array[17]] : game_array[17],
+	[source_array[18]] : game_array[18],
+	[source_array[19]] : game_array[19],
+	[source_array[20]] : game_array[20]
+
+};
+
+
 
 /*
-
-let object = {};
 
 let i = 1;
 
@@ -101,6 +116,7 @@ for (let j = 0; j < game_array.length; j++){
 }
 
 */
+
 
 
 let jsonstring = JSON.stringify(object)
