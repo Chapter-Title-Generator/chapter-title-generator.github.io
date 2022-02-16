@@ -1,4 +1,3 @@
-<link href="txtstyle.css" rel="stylesheet" type="text/css" />
 The Dark Forest
 An Undying Oath
 The Two Paths

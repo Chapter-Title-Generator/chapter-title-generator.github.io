@@ -1525,123 +1525,634 @@ let titles = {
     "filename": "xcde.png"
   },
   "306": {
+    "body": "The Shadow in the Night",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "307": {
+    "body": "Tranquil Days",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "308": {
+    "body": "Slumbering Fables",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "309": {
+    "body": "The Color of a Rose",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "310": {
+    "body": "Inescapable Labyrinth",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "311": {
+    "body": "Darkness without End",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "312": {
+    "body": "A Place of Tranquility",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "313": {
+    "body": "The Cursed Mansion",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "314": {
+    "body": "Life in the Light",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "315": {
+    "body": "The Moonlight's Spell",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "316": {
+    "body": "After the Curtain's Fall",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "317": {
+    "body": "Blood of the Saint",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "318": {
+    "body": "Springtime Tears",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "319": {
+    "body": "Portrait of White",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "320": {
+    "body": "Venomous Angel",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "321": {
+    "body": "The March of Time",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "322": {
+    "body": "Song for the Sunrise",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "323": {
+    "body": "Seething Darkness",
+    "source": "The House in Fata Morgana",
+    "filename": "fatamorgana.png"
+  },
+  "324": {
     "body": "Cloaked in Guilt",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "307": {
+  "325": {
     "body": "A Once Empty World",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "308": {
+  "326": {
     "body": "The Warmth of Your Hand",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "309": {
+  "327": {
     "body": "The Struggle Against Fate",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "310": {
+  "328": {
     "body": "Exchange of Final Wishes",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "311": {
+  "329": {
     "body": "Bearer of the Family Name",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "312": {
+  "330": {
     "body": "That Which Divides",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "313": {
+  "331": {
     "body": "Protective Hearts",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "314": {
+  "332": {
     "body": "Seeking a Thread of Hope",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "315": {
+  "333": {
     "body": "The Price of a Wish",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "316": {
+  "334": {
     "body": "Determined to Believe",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "317": {
+  "335": {
     "body": "Connected Hearts",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "318": {
+  "336": {
     "body": "Towards Hope",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "319": {
+  "337": {
     "body": "Our Own Sea and Sky",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "320": {
+  "338": {
     "body": "A Shower of Light",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "321": {
+  "339": {
     "body": "In a Broken World",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "322": {
+  "340": {
     "body": "Encounter with a Hero",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "323": {
+  "341": {
     "body": "Hopes Combined",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "324": {
+  "342": {
     "body": "World Full of Wishes",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "325": {
+  "343": {
     "body": "Admiring the Beyond",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "326": {
+  "344": {
     "body": "As Many Times as it Takes",
     "source": "Magia Record",
     "filename": "magireco.png"
   },
-  "327": {
+  "345": {
     "body": "Each Person's Enemy",
-    "source": "Misc.",
-    "filename": "blank.png"
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
   },
-  "328": {
+  "346": {
+    "body": "Coincidence or Inevitability",
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
+  },
+  "347": {
+    "body": "Out of the Birdcage",
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
+  },
+  "348": {
+    "body": "Among Dawn",
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
+  },
+  "349": {
+    "body": "The Wicked Lady of Rumor",
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
+  },
+  "350": {
+    "body": "The Queen and her Pawn",
+    "source": "Your Throne",
+    "filename": "yourthrone.png"
+  },
+  "351": {
     "body": "Call of Eternity",
     "source": "Misc.",
     "filename": "blank.png"
   },
-  "329": {
+  "352": {
     "body": "Memories of Better Days",
     "source": "Misc.",
     "filename": "blank.png"
-  }
+  },
+  "Fire Emblem: Genealogy of the Holy War": [
+    "Doors of Destiny",
+    "For Whose Sake"
+  ],
+  "Fire Emblem: Thracia 776": [
+    "The Dark Forest",
+    "An Undying Oath",
+    "The Two Paths"
+  ],
+  "Fire Emblem: The Binding Blade": [
+    "Dawn of Destiny",
+    "The Pinnacle of Light",
+    "The Path Through the Ocean",
+    "The Silencing Darkness",
+    "The Neverending Dream",
+    "The Truth of the Legend",
+    "Beyond the Darkness"
+  ],
+  "Fire Emblem: The Blazing Blade": [
+    "Footsteps of Fate",
+    "Beyond the Borders",
+    "In Search of Truth",
+    "Unfulfilled Heart",
+    "Sands of Time",
+    "A Glimpse in Time",
+    "The Value of Life"
+  ],
+  "Fire Emblem: The Sacred Stones": [
+    "The Protected",
+    "Ancient Horrors",
+    "Unbroken Heart",
+    "Victims of War",
+    "Creeping Darkness",
+    "Village of Silence",
+    "Turning Traitor",
+    "Ruled by Madness",
+    "River of Regrets",
+    "Two Faces of Evil",
+    "Last Hope"
+  ],
+  "Fire Emblem: Path of Radiance": [
+    "Despair and Hope",
+    "A Guiding Wind",
+    "The Atonement",
+    "Moment of Fate",
+    "A Strange Land",
+    "Shades of Evil",
+    "A Battle and a Beginning",
+    "Bittersweet Victory",
+    "Requiem for the Fallen"
+  ],
+  "Fire Emblem: Radiant Dawn": [
+    "Under Gray Skies",
+    "A Faint Light",
+    "A Distant Voice",
+    "A Gathering Hope",
+    "Winds of Rebellion",
+    "Tides of Intrigue",
+    "On Drifting Clouds",
+    "Chaos Named",
+    "Silent World",
+    "Bearer of Hope",
+    "On Glory's Wings",
+    "Divine Tranquility"
+  ],
+  "Fire Emblem: Shadow Dragon": [
+    "In War's Grip",
+    "The Ageless Palace",
+    "A Traitor's Worth",
+    "An Oasis of Magic",
+    "Star and Savior",
+    "Chosen by Fate",
+    "Footsteps of Fate",
+    "Where Stories Begin",
+    "A Hero's Destiny",
+    "Blade of Treachery",
+    "Requiem for the Brave",
+    "Pieces of Hope",
+    "A Painful Farewell"
+  ],
+  "Fire Emblem: New Mystery of the Emblem": [
+    "Sanctuary of Sorcery",
+    "Depths of the Abyss",
+    "Light and Shadow",
+    "Beyond the Silence"
+  ],
+  "Fire Emblem: Awakening": [
+    "Invisible Ties",
+    "The Verge of History",
+    "Unwelcome Change",
+    "Foreseer",
+    "An Ill Presage",
+    "The Secret Seller",
+    "A Strangled Peace",
+    "Scion of Legend",
+    "Noble Lineage",
+    "A Duel Disgraced",
+    "Disowned by Time",
+    "Shadow in the Sands",
+    "A Shot from the Dark",
+    "Daughter to Dragons",
+    "The Threat of Silence",
+    "Irreconcilable Paths",
+    "The Wellspring of Truth",
+    "Prescience",
+    "Anathema"
+  ],
+  "Fire Emblem: Fates": [
+    "Ties That Bind",
+    "Lost in the Waves",
+    "The Changing Tide",
+    "Endless Dawn",
+    "Petals in the Wind",
+    "Ember of Hope",
+    "Left to Heaven",
+    "Endless Nightmare",
+    "Rend Heaven",
+    "Inevitable End"
+  ],
+  "Fire Emblem: Fates (Revelation)": [
+    "Unspeakable World",
+    "Voice of a God",
+    "A Lost Peace",
+    "Veiled Kingdom",
+    "Hidden Strings",
+    "Seeds of Doubt",
+    "Days Lost"
+  ],
+  "Fire Emblem: Fates (Birthright)": [
+    "A Vow Upheld",
+    "Fierce Winds",
+    "Land of Gods",
+    "Lost in the Ice",
+    "Dawn Breaks"
+  ],
+  "Fire Emblem: Fates (Conquest)": [
+    "Bitter Intrigue",
+    "Voice of Paradise",
+    "Winds of Change",
+    "Eternal Stairway",
+    "Rose's Thorns"
+  ],
+  "Fire Emblem Echoes: Shadows of Valentia": [
+    "Land of Sorrow",
+    "Together to the End",
+    "Undiscovered Horizons",
+    "A Song for Bygone Days",
+    "What Lies at the End",
+    "One Star by the Next",
+    "A Distant Promise",
+    "In a Silver Garden with You",
+    "The Slumbering Labyrinth"
+  ],
+  "Fire Emblem: Three Houses": [
+    "An Inevitable Encounter",
+    "Tower of Black Winds",
+    "The Cause of Sorrow",
+    "Where the Goddess Dwells",
+    "Throne of Knowledge",
+    "Reunion at Dawn",
+    "The Chaos of War",
+    "Conclusion of the Crossing Roads",
+    "The City Without Light",
+    "Following a Dream",
+    "Lady of Deceit",
+    "To the End of a Dream",
+    "What Lies Beneath",
+    "Falling Short of Heaven",
+    "Dividing the World",
+    "Beneath The Earth",
+    "Roar of Dominion",
+    "Chasing Daybreak",
+    "Between Heaven and Earth",
+    "The Long Road",
+    "Dwellings of the Ancient Gods",
+    "Paths That Will Never Cross",
+    "Indomitable Will ",
+    "Guardian of Starlight",
+    "Recollection and Regret",
+    "Somewhere to Belong",
+    "Words to Believe In",
+    "The Land Beloved by the Goddess",
+    "A Star in the Morning Sky",
+    "The Color of Sunrise",
+    "Scales of the Goddess"
+  ],
+  "Fire Emblem Heroes": [
+    "The Blood of Dragons",
+    "Enduring Love",
+    "Shadow in the Mirror",
+    "Heroes & Legends",
+    "Fated Battles",
+    "The Chosen Ones",
+    "Destructive Forces",
+    "Shrouded Skirmish",
+    "Swift-Shadow Series",
+    "Winter Flurries",
+    "Dark Clouds ",
+    "Resonating Fangs",
+    "Reunited at Last",
+    "To Die on the Battlefield",
+    "Moment of Fate",
+    "Genealogy of Light",
+    "Less Than Heroic",
+    "A Gift of Peace",
+    "Stepping into the New Year",
+    "Shrouded by the Storm",
+    "Breath of Destiny",
+    "Sweet Dreams",
+    "Familiar Faces",
+    "Before We Met...",
+    "Life Is But Fleeting",
+    "An Alliance of Princesses",
+    "To Defy the Gods",
+    "Taste of Spring",
+    "A Promise of Joy",
+    "Lessons Learned",
+    "A Hero's Mettle",
+    "Till Song's End",
+    "A Child's Wish",
+    "For a Smile",
+    "Romance Whirlwind",
+    "A Waltz Unending",
+    "Royal Treasures",
+    "Ever Two Halves",
+    "Burden of Gifts",
+    "Love of Family",
+    "Lost to Love",
+    "Familiar Stranger",
+    "Labyrinth of Mists",
+    "Shadowed Memories",
+    "Sanctuary of the Mages",
+    "Farewells",
+    "Labyrinth of Despair",
+    "Carrying the Flame",
+    "Heartstring's Ties",
+    "Driven to Madness",
+    "History Unveiled",
+    "Rejecting Destiny",
+    "Dueling Desires",
+    "The Sworn Oath",
+    "Hearts as One",
+    "Reason to Fight",
+    "A Trust Earned",
+    "Power's Den",
+    "Spanning Time",
+    "Changing Winds",
+    "A Time to Shine",
+    "Common Virtues",
+    "Mercenary Matters",
+    "Path to the Future",
+    "Beyond Blood",
+    "Study in Crimson",
+    "Harmony amid Chaos",
+    "The Fire Within",
+    "Peaceful Ends",
+    "Renewed Resolve",
+    "Shape of a Spirit",
+    "A New Future",
+    "Timeless Ties",
+    "In Her Service",
+    "Principled Acts",
+    "Driven by Vision",
+    "Shared Purpose",
+    "Enduring Legacy",
+    "One of True Sight",
+    "Unattained Dream",
+    "Proof of Power",
+    "A Bond Renewed",
+    "Guided by a Dream",
+    "A Distant Dream",
+    "Echoing Dreams",
+    "Indomitable Spirits",
+    "Misplaced Wisdom",
+    "A Way Home",
+    "The Makings of a King",
+    "A Home Unknown",
+    "Compassion Blooms",
+    "Truth of a Name",
+    "Where It Began",
+    "Seeking a Path",
+    "Bitter Realizations",
+    "One's Own Shadow",
+    "On That Hill, Together",
+    "The Dream",
+    "Reflections of Reality",
+    "A Change Unnoticed",
+    "Waking Realization",
+    "In a Sleeping World",
+    "Missing You",
+    "Lost in a Dream",
+    "Adopted Fondness",
+    "Motherly Instincts",
+    "The Hero Inside",
+    "A Distant Friend",
+    "On Dark Wings",
+    "Seen in Dreams",
+    "Twisted Reality",
+    "Recalling Your Name",
+    "A Lady's Wish",
+    "Withdrawn Melancholy",
+    "The Waking Dream",
+    "Memory of a Friend",
+    "Steeped in Twilight",
+    "Daydream",
+    "The War Within",
+    "Red Horizon",
+    "Child Left Unloved",
+    "Rogue's Redemption",
+    "A Shadow's Vow",
+    "Agony of Youth",
+    "Having Grown",
+    "To Feel Loved",
+    "What I Dreamed Of",
+    "Where It Started",
+    "Like a Dream",
+    "Facing Reality",
+    "The Waking World",
+    "Insight and Inroads",
+    "Wavering Resolve",
+    "Conflicting Feelings",
+    "Useless Gestures",
+    "Overcoming Differences"
+  ],
+  "Xenoblade Chronicles": [
+    "Revisiting the Past",
+    "Strength of Heart",
+    "Recovery and Reflection",
+    "A Wistful Glow",
+    "Eternal Scars",
+    "A Mysterious Sanctuary",
+    "The Shimmering Marsh",
+    "A Day Like Any Other",
+    "Reawakened Memories",
+    "Ancient Astrology",
+    "Echoes of Ancient Times",
+    "The Land in the Sky",
+    "A Love for Flowers",
+    "Strength in Unity",
+    "A Life Without Visions"
+  ],
+  "The House in Fata Morgana": [
+    "The Shadow in the Night",
+    "Tranquil Days",
+    "Slumbering Fables",
+    "The Color of a Rose",
+    "Inescapable Labyrinth",
+    "Darkness without End",
+    "A Place of Tranquility",
+    "The Cursed Mansion",
+    "Life in the Light",
+    "The Moonlight's Spell",
+    "After the Curtain's Fall",
+    "Blood of the Saint",
+    "Springtime Tears",
+    "Portrait of White",
+    "Venomous Angel",
+    "The March of Time",
+    "Song for the Sunrise",
+    "Seething Darkness"
+  ],
+  "Magia Record": [
+    "Cloaked in Guilt",
+    "A Once Empty World",
+    "The Warmth of Your Hand",
+    "The Struggle Against Fate",
+    "Exchange of Final Wishes",
+    "Bearer of the Family Name",
+    "That Which Divides",
+    "Protective Hearts",
+    "Seeking a Thread of Hope",
+    "The Price of a Wish",
+    "Determined to Believe",
+    "Connected Hearts",
+    "Towards Hope",
+    "Our Own Sea and Sky",
+    "A Shower of Light",
+    "In a Broken World",
+    "Encounter with a Hero",
+    "Hopes Combined",
+    "World Full of Wishes",
+    "Admiring the Beyond",
+    "As Many Times as it Takes"
+  ],
+  "Your Throne": [
+    "Each Person's Enemy",
+    "Coincidence or Inevitability",
+    "Out of the Birdcage",
+    "Among Dawn",
+    "The Wicked Lady of Rumor",
+    "The Queen and her Pawn"
+  ],
+  "Misc.": [
+    "Call of Eternity",
+    "Memories of Better Days"
+  ]
 }

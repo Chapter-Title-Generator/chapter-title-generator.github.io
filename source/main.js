@@ -18,10 +18,12 @@ let fe15 = fs.readFileSync('sov.txt').toString().split("\n");
 let fe16 = fs.readFileSync('3h.txt').toString().split("\n");
 let feh = fs.readFileSync('feh.txt').toString().split("\n");
 let xc = fs.readFileSync('xc.txt').toString().split("\n");
+let fm = fs.readFileSync('fatamorgana.txt').toString().split("\n");
 let magireco = fs.readFileSync('magireco.txt').toString().split("\n");
+let yt = fs.readFileSync('yourthrone.txt').toString().split("\n");
 let misc = fs.readFileSync('misc.txt').toString().split("\n");
 
-let game_array = [fe4, fe5, fe6, fe7, fe8, fe9, fe10, fe11, fe12, fe13, fe14, fe_rev, fe_br, fe_cq, fe15, fe16, feh, xc, magireco, misc]
+let game_array = [fe4, fe5, fe6, fe7, fe8, fe9, fe10, fe11, fe12, fe13, fe14, fe_rev, fe_br, fe_cq, fe15, fe16, feh, xc, fm, magireco, yt, misc]
 let source_array = ["Fire Emblem: Genealogy of the Holy War", 
 					"Fire Emblem: Thracia 776",
 					"Fire Emblem: The Binding Blade",
@@ -40,7 +42,9 @@ let source_array = ["Fire Emblem: Genealogy of the Holy War",
 					"Fire Emblem: Three Houses",
 					"Fire Emblem Heroes",
 					"Xenoblade Chronicles",
+					"The House in Fata Morgana",
 					"Magia Record",
+					"Your Throne",
 					"Misc."
 					]
 
@@ -62,7 +66,9 @@ let files_array = ["genealogy.png",
 					"3h.png",
 					"heroes.png",
 					"xcde.png",
+					"fatamorgana.png",
 					"magireco.png",
+					"yourthrone.png",
 					"blank.png"
 					]
 
@@ -89,13 +95,15 @@ let object = {
 	[source_array[17]] : game_array[17],
 	[source_array[18]] : game_array[18],
 	[source_array[19]] : game_array[19],
-	[source_array[20]] : game_array[20]
+	[source_array[20]] : game_array[20],
+	[source_array[21]] : game_array[21],
+	[source_array[22]] : game_array[22],
 
 };
 
 
 
-/*
+
 
 let i = 1;
 
@@ -115,7 +123,6 @@ for (let j = 0; j < game_array.length; j++){
 	}
 }
 
-*/
 
 
 

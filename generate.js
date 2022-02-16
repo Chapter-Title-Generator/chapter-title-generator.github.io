@@ -18,16 +18,18 @@ let arr = [
 "Fire Emblem Heroes",
 "Magia Record",
 "Xenoblade Chronicles",
+"The House in Fata Morgana",
+"Your Throne",
 "Misc."
 ]
 
 
 function generateTitles(){
 
-	console.log(title)
+	console.log(titles)
 
 	for (let i = 0; i < arr.length; i++){
 		console.log(arr[i])
-		document.getElementById(arr[i]).innerHTML = title[arr[i]].join('<br>')
+		document.getElementById(arr[i]).innerHTML = titles[arr[i]].join('<br>')
 	}
 }
